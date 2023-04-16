@@ -1,0 +1,30 @@
+.caixa{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 1em;
+}
+
+input, select{
+    border-radius: 1em;
+}
+
+.botaoForm{
+    margin-top: 3em;
+}
+
+div h1{
+    margin-top: 2em;
+    padding-bottom: 0.5em;
+    margin-left: 3em;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div iframe{
+    margin-left: 1em;
+}
+
+#rodapeForm{
+    margin-top: 27em;
+}

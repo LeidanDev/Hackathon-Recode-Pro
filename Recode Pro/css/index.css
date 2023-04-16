@@ -1,0 +1,31 @@
+section p{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 2em;
+}
+
+
+.botao{
+    margin-left: 10em;
+    border: 1px solid var(--pretoPrincipal);
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: var(--azulPrincipal);
+    text-decoration: none;   
+    color: white;
+    font-weight: 400;
+}
+
+.inter{
+    width: 2.5em;
+    margin-right: 2em;  
+}
+
+#textoDesc{
+    font-size: 36px;
+}
+
+#rodapeInicio{
+    margin-top: 3em;
+}

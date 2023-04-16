@@ -1,0 +1,86 @@
+@import url(../css/index.css);
+@import url(../css/form.css);
+@import url(../css/cursos.css);
+@import url(../css/quemSomos.css);
+
+:root{
+    --pretoPrincipal: #00131E;
+    --azulPrincipal: #28AAF4;
+    --cinzaPrincipal: #ADB0B2;
+}
+
+header{
+    background-color: var(--pretoPrincipal);
+    height: 3em;
+}
+
+header img{
+    width: 3em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+nav ul li{
+    padding: 0.5em;
+}
+
+nav ul li:hover{
+    color: var(--azulPrincipal);
+}
+
+body{
+    background: linear-gradient(#28AAF4, #ffffff);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+.texto{
+    color: aliceblue;
+}
+
+footer{
+    background-color: var(--pretoPrincipal);
+}
+
+#copy{
+    margin-left: 10em;
+    margin-top: 2em;
+    color: white;
+    padding: 1em;
+}
+
+#contato{
+    margin-top: 1em;
+    color: white;
+}
+
+#voltar{
+    color: white;
+    margin-left: 2em;
+    margin-top: -2em;
+}
+
+.limpar{
+    text-decoration: none;
+}
+
+.imgTeste{
+    opacity: 0.20;
+    display: inline-block;
+    width: 35%;
+    height: 10%;
+    position: absolute;
+    margin-top: 35em;
+    border-radius: 1em;
+} 

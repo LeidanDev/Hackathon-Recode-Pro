@@ -1,0 +1,14 @@
+.titulo{
+    text-align: center;
+    margin-top: 2em;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+section p{
+    font-size: 24px;
+}
+
+#rodapeQuem{
+    margin-top: 7.8em;
+}
