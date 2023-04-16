@@ -84,3 +84,11 @@ footer{
     margin-top: 35em;
     border-radius: 1em;
 } 
+
+#tel{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
